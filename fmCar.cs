@@ -79,7 +79,7 @@ namespace Parking
                 eColorCar.Text = f.ExportName;
                 eColorCar.Tag = f.ExportId;
             }
-            f.Dispose();
+			f.Dispose();
         }
 
         private void LoadData()
